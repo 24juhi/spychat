@@ -1,9 +1,11 @@
+#Write code to get images between certain geographical coordinates, analyse the caption and determine if it is about a natural calamity such as earthquake, floods etc.
+
 import requests
 import urllib
 from constant import BASE_URL , APP_ACCESS_TOKEN
 
-#APP_ACCESS_TOKEN = 'paste_your_api_key'
-#BASE_URL = 'https://api.instagram.com/v1/'
+APP_ACCESS_TOKEN = 'paste_your_api_key'
+BASE_URL = 'https://api.instagram.com/v1/'
 
 calamities = ['earthquake','landslide','volcanic_erruption','flood','tsunami','cyclone','storms','droughts']
 
