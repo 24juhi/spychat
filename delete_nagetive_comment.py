@@ -1,7 +1,8 @@
 import requests
-import textblob
 from get_post_id import  get_post_id
 from constant import BASE_URL , APP_ACCESS_TOKEN
+from  textblob import TextBlob
+from  textblob.sentiments import NaiveBayesAnalyzer
 def delete_negative_comment(insta_username):
     media_id = get_post_id(insta_username)
     request_url = (BASE_URL + 'media/%s/comments/?access_token=%s') % (media_id, APP_ACCESS_TOKEN)
