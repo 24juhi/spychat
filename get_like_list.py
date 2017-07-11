@@ -14,7 +14,7 @@ def like_list(insta_username):
         print ("hgghgh")
         print  "Media with media id '{}' is liked by following users :" , format(media_id)
         for (index,user_likes) in enumerate(get_a_like ['data']):
-            print "{}. {} ({}) - {}".format(index+1,user_likes['full_name'],user_likes['id']user_likes['username'])
+            print "{}. {} ({}) - {}".format(index+1,user_likes['full_name'],user_likes['id'],user_likes['username'])
 
 
     else:
