@@ -25,7 +25,8 @@ def start_bot():
         print "g.Get a list of comments on the recent post of a user\n"
         print "h.Make a comment on the recent post of a user\n"
         print "i.Delete negative comments from the recent post of a user\n"
-        print "j.Exit"
+        print "j.Natural Calamities\n"
+        print "k.Exit"
 
         choice=raw_input("Enter you choice: ")
         if choice=="a":
@@ -54,6 +55,7 @@ def start_bot():
             insta_username = raw_input("Enter the username of the user: ")
             delete_negative_comment(insta_username)
         elif choice=="j":
+            natural_calamities()
             exit()
         else:
             print "wrong choice"
