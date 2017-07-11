@@ -35,18 +35,9 @@ def start_bot():
         elif choice=="d":
             insta_username = raw_input("Enter the username of the user: ")
             get_user_post(insta_username)
-        elif choice=="e":
-            insta_username = raw_input("Enter the username of the user: ")
-            get_like_list(insta_username)
         elif choice=="f":
             insta_username = raw_input("Enter the username of the user: ")
             like_a_post(insta_username)
-        elif choice=="g":
-            insta_username = raw_input("Enter the username of the user: ")
-            get_comment_list(insta_username)
-        elif choice=="h":
-            insta_username = raw_input("Enter the username of the user: ")
-            make_a_comment(insta_username)
         elif choice=="i":
             insta_username = raw_input("Enter the username of the user: ")
             delete_negative_comment(insta_username)
