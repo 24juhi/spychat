@@ -12,6 +12,7 @@ def get_post_id(insta_username):
 
     if user_media['meta']['code'] == 200:
         if len(user_media['data']):
+            print user_media['data'][0]['id']
             return user_media['data'][0]['id']
         else:
             print 'There is no recent post of the user!'
@@ -19,3 +20,4 @@ def get_post_id(insta_username):
     else:
         print 'Status code other than 200 received!'
         exit()
+get_post_id("vikasraj7027")
