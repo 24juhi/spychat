@@ -7,6 +7,7 @@ from delete_nagetive_comment import  delete_negative_comment
 from get_like_list import like_list
 from get_comment_list import get_comment_list
 from make_a_comment import post_a_comment
+from natural_calamities import natural_calamities
 
 
 
