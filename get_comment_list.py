@@ -1,4 +1,4 @@
-import requests,urllib
+import requests
 from constant import BASE_URL , APP_ACCESS_TOKEN
 from get_post_id import  get_post_id
 

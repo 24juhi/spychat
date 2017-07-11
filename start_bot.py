@@ -4,6 +4,9 @@ from get_own_post import get_own_post
 from get_user_post import get_user_post
 from like_a_post import  like_a_post
 from delete_nagetive_comment import  delete_negative_comment
+from get_like_list import like_list
+from get_comment_list import get_comment_list
+from make_a_comment import post_a_comment
 
 
 
@@ -34,9 +37,18 @@ def start_bot():
         elif choice=="d":
             insta_username = raw_input("Enter the username of the user: ")
             get_user_post(insta_username)
-        elif choice=="f":
+        elif choice == "e":
             insta_username = raw_input("Enter the username of the user: ")
-            like_a_post(insta_username)
+            get_like_list(insta_username)
+        elif choice=="f":
+              insta_username = raw_input("Enter the username of the user: ")
+              like_a_post(insta_username)
+        elif choice == "g":
+            insta_username = raw_input("Enter the username of the user: ")
+            get_comment_list(insta_username)
+        elif choice == "h":
+             insta_username = raw_input("Enter the username of the user: ")
+             make_a_comment(insta_username)
         elif choice=="i":
             insta_username = raw_input("Enter the username of the user: ")
             delete_negative_comment(insta_username)
