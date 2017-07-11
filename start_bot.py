@@ -1,6 +1,10 @@
 from self_info import self_info
-from get_user_info import get_user_info
-
+from get_user_info i
+from get_own_post import  get_own_post
+from  get_user_info import  get_user_info
+from get_user_post import get_user_post
+from like_a_post import  like_a_post
+from delete_nagetive_comment import  delete_negative_comment
 
 
 
